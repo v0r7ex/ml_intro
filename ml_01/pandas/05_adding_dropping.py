@@ -4,3 +4,6 @@ from animals import *
 #df = df.append(k)
 df.loc['k'] = ['hamster', 0.5, 1, 'No']
 print(df)
+
+df = df.drop('k')
+print("\n", df)
